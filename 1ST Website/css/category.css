@@ -1,0 +1,54 @@
+/* Paragraph Page */
+
+.cat_title, .cat_titlef  {
+    text-align: center;
+ }
+ .cat_titlef  {
+    text-align: center;
+    background-color:#e2a165;
+    border-color: #f1f1f1;
+    padding-bottom: 5px;
+    padding-top: 5px;
+ }
+
+ .cat_column2
+ {
+
+    float: left;
+    width:33.33%;
+    padding: 10px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    background-color: #e2a165;
+    font-size: 15px;
+    color: black;
+    font-family: Arial;
+
+
+  }
+  
+ .cat_column1, .cat_column3 {
+    float: left;
+    width:33.33%;
+    padding: 10px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    background-color: #000;
+    font-size:15px;
+    color: #e2a165;
+    font-family: Arial;
+
+  }
+  .cat_row{
+    text-align: left;
+  }
+  
+  
+  
+  /* Clearfix (clear floats) */
+  .cat_row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* End Image SLanding Page */

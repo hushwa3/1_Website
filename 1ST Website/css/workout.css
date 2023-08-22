@@ -1,0 +1,44 @@
+/* Paragraph Page */
+.work_row{
+    border-color: #f1f1f1;
+    padding-bottom: 5px;
+}
+.work_title {
+    text-align: center;
+ 
+}
+  
+.work_column1 {
+
+    float: left;
+    width:50%;
+    padding: 10px;
+    border-color: gray;
+    background-color: #e2a165;
+    font-size: 20px;
+    color: black;
+    font-family: Arial;
+
+  }
+  
+  .work_column2 {
+    float: left;
+    width:50%;
+    padding: 22px;
+    background-color: #000;
+    font-size: 20px;
+    color: #e2a165;
+    font-family: Arial;
+
+  }
+  
+
+
+  
+  /* Clearfix (clear floats) */
+  .work_row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* End Image SLanding Page */

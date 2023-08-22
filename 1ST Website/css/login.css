@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    }
+
+.log_bg-img {
+    /* The image used */
+    background-image: url("../img/homef.png");
+    min-height: 380px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 26%;
+    margin-left: 35%;
+ 
+  }
+  
+  /* Add styles to the form container */
+  .login_container {
+    position: absolute;
+       margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    color: black;
+   
+  
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+  
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .login_btn {
+    background-color: #e2a165;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-family: Alyssum, Alyssum, Alyssum;
+  }
+  
+  .login_btn:hover {
+    opacity: 1;
+  }
+ 
+  .log_a:hover{
+        color: #e2a165;
+
+  }
